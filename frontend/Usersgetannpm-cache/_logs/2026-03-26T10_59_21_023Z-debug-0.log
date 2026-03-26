@@ -1,0 +1,666 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\getan\Documents\voting\frontend\.npmrc
+5 silly config load:file:C:\Users\getan\.npmrc
+6 silly config load:file:C:\Users\getan\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install tailwindcss postcss autoprefixer
+8 verbose argv "install" "--save-dev" "tailwindcss" "postcss" "autoprefixer"
+9 verbose logfile logs-max:10 dir:C:\Users\getan\Documents\voting\frontend\Usersgetannpm-cache\_logs\2026-03-26T10_59_21_023Z-
+10 verbose logfile C:\Users\getan\Documents\voting\frontend\Usersgetannpm-cache\_logs\2026-03-26T10_59_21_023Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 warn idealTree Removing dependencies.tailwindcss in favor of devDependencies.tailwindcss
+14 warn idealTree Removing dependencies.postcss in favor of devDependencies.postcss
+15 warn idealTree Removing dependencies.autoprefixer in favor of devDependencies.autoprefixer
+16 silly idealTree buildDeps
+17 silly fetch manifest tailwindcss@*
+18 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/tailwindcss 385ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10313396 disposed:false
+21 silly fetch manifest postcss@*
+22 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+23 http cache https://registry.npmjs.org/postcss 27ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/postcss set size:702266 disposed:false
+25 silly fetch manifest autoprefixer@*
+26 silly packumentCache full:https://registry.npmjs.org/autoprefixer cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/autoprefixer 963ms (cache revalidated)
+28 silly packumentCache full:https://registry.npmjs.org/autoprefixer set size:1307925 disposed:false
+29 silly placeDep ROOT autoprefixer@10.4.27 REPLACE for: voting-frontend@1.0.0 want: *
+30 silly placeDep ROOT postcss@8.5.8 REPLACE for: voting-frontend@1.0.0 want: *
+31 silly placeDep ROOT tailwindcss@4.2.2 REPLACE for: voting-frontend@1.0.0 want: *
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@alloc\\quick-lru'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\gen-mapping'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\resolve-uri'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\sourcemap-codec'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\trace-mapping'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\fs.scandir'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\fs.stat'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\fs.walk'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\any-promise'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\anymatch'
+41 silly reify ]
+42 silly reify mark retired [ 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\arg' ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\binary-extensions'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\braces'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\camelcase-css'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\chokidar'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\commander'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\cssesc',
+48 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\cssesc',
+48 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\cssesc.cmd',
+48 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\cssesc.ps1'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\didyoumean'
+49 silly reify ]
+50 silly reify mark retired [ 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\dlv' ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\fast-glob'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\fastq'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\fill-range'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\glob-parent'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-binary-path'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-core-module'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-extglob'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-glob'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-number'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\jiti',
+60 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\jiti',
+60 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\jiti.cmd',
+60 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\jiti.ps1'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\lilconfig'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\lines-and-columns'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\merge2'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\micromatch'
+64 silly reify ]
+65 silly reify mark retired [ 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\mz' ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\normalize-path'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\object-assign'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\object-hash'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\path-parse'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\picomatch'
+70 silly reify ]
+71 silly reify mark retired [ 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\pify' ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\pirates'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-import'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-js'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-load-config'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-nested'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-selector-parser'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\queue-microtask'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\read-cache'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\readdirp'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\resolve',
+81 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\resolve',
+81 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\resolve.cmd',
+81 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\resolve.ps1'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\reusify'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\run-parallel'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\sucrase',
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase',
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase.cmd',
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase.ps1',
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase-node',
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase-node.cmd',
+84 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase-node.ps1'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\supports-preserve-symlinks-flag'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\tailwindcss',
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwind',
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwind.cmd',
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwind.ps1',
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwindcss',
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwindcss.cmd',
+86 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwindcss.ps1'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\thenify'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\thenify-all'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\tinyglobby'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\to-regex-range'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\ts-interface-checker'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\util-deprecate'
+92 silly reify ]
+93 silly reify moves {
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@alloc\\quick-lru': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@alloc\\.quick-lru-kFXeUONp',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\gen-mapping': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\.gen-mapping-yI0WNCEH',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\resolve-uri': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\.resolve-uri-6Cov2agL',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\sourcemap-codec': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\.sourcemap-codec-NYhvaUdZ',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\trace-mapping': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@jridgewell\\.trace-mapping-W2M4jIv7',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\fs.scandir': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\.fs.scandir-9OcELEtd',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\fs.stat': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\.fs.stat-sRiAeZPl',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\fs.walk': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@nodelib\\.fs.walk-sbv1y7YZ',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\any-promise': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.any-promise-tRwLyqvB',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\anymatch': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.anymatch-HCxxWQvC',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\arg': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.arg-ytPRw7Du',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\binary-extensions': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.binary-extensions-jNus4NK0',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\braces': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.braces-3pESe6Aj',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\camelcase-css': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.camelcase-css-HFljnS1A',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\chokidar': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.chokidar-fpSxCtgR',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\commander': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.commander-9CfyMq7j',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\cssesc': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.cssesc-0uMI99U9',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\cssesc': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.cssesc-5gsSdk1s',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.cssesc.cmd-ryOOPP4E',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.cssesc.ps1-lTYlJGzy',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\didyoumean': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.didyoumean-76bR3mnr',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\dlv': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.dlv-3l4mezP0',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\fast-glob': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.fast-glob-Jtc3evCN',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\fastq': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.fastq-Ev0CmKu6',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\fill-range': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.fill-range-k9JCVKtg',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\glob-parent': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.glob-parent-UeCkL2AG',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-binary-path': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.is-binary-path-9dbbimnl',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-core-module': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.is-core-module-uaVqh6kc',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-extglob': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.is-extglob-dXhKkqQe',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-glob': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.is-glob-epXpdgox',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\is-number': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.is-number-AZ1e5fmF',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\jiti': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.jiti-v7PYzUG7',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\jiti': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.jiti-WdueSgL5',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.jiti.cmd-9H7XmSxd',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.jiti.ps1-OU3z6TeS',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\lilconfig': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.lilconfig-FI422Bjv',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\lines-and-columns': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.lines-and-columns-S8pIxoWa',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\merge2': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.merge2-O8Wb7uUP',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\micromatch': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.micromatch-X9VRQDEk',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\mz': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.mz-1P1ohLLj',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\normalize-path': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.normalize-path-QYrrV6OO',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\object-assign': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.object-assign-fu1W24X8',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\object-hash': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.object-hash-AXE8FbZK',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\path-parse': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.path-parse-xUrMnHnj',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\picomatch': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.picomatch-XQC7KCvO',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\pify': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.pify-OsTMqJYr',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\pirates': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.pirates-TODWpEVe',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-import': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.postcss-import-AF3RynL8',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-js': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.postcss-js-hwq9DAVs',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-load-config': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.postcss-load-config-KYmqYloI',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-nested': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.postcss-nested-9hwYiaUT',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\postcss-selector-parser': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.postcss-selector-parser-8g1LBVBH',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\queue-microtask': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.queue-microtask-h7w26ne9',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\read-cache': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.read-cache-GSZkaBXF',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\readdirp': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.readdirp-sef4bTPz',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\resolve': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.resolve-51oEd7co',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\resolve': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.resolve-49Qf6CLf',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.resolve.cmd-TwepFanI',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.resolve.ps1-dmytfS47',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\reusify': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.reusify-bqzr61pm',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\run-parallel': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.run-parallel-YxplHNGv',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\sucrase': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.sucrase-ApdDdyUg',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.sucrase-Sa2ls8CM',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.sucrase.cmd-YU8rlU9F',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.sucrase.ps1-9YXfv5gZ',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.sucrase-node-vYFzlvYA',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.sucrase-node.cmd-YRHFHjn6',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.sucrase-node.ps1-eNAD8gTc',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\supports-preserve-symlinks-flag': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.supports-preserve-symlinks-flag-QaqujZoO',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\tailwindcss': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.tailwindcss-UaGcT2ZV',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwind': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.tailwind-r7oEteNb',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.tailwind.cmd-ffe1D8WI',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.tailwind.ps1-wNDI7v5R',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.tailwindcss-5k5J2LZ4',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.tailwindcss.cmd-vjru3ytH',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.bin\\.tailwindcss.ps1-skR0mm3I',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\thenify': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.thenify-YsBzQ7fx',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\thenify-all': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.thenify-all-7rVsGrE8',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\tinyglobby': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.tinyglobby-9tNNy1qU',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\to-regex-range': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.to-regex-range-SFfHQGQp',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\ts-interface-checker': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.ts-interface-checker-9EGyUiFj',
+93 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\util-deprecate': 'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\.util-deprecate-ftEVgtV4'
+93 silly reify }
+94 silly audit bulk request {
+94 silly audit   '@adraffy/ens-normalize': [ '1.10.1' ],
+94 silly audit   '@babel/runtime': [ '7.29.2' ],
+94 silly audit   '@next/env': [ '14.0.4' ],
+94 silly audit   '@next/swc-darwin-arm64': [ '14.0.4' ],
+94 silly audit   '@next/swc-darwin-x64': [ '14.0.4' ],
+94 silly audit   '@next/swc-linux-arm64-gnu': [ '14.0.4' ],
+94 silly audit   '@next/swc-linux-arm64-musl': [ '14.0.4' ],
+94 silly audit   '@next/swc-linux-x64-gnu': [ '14.0.4' ],
+94 silly audit   '@next/swc-linux-x64-musl': [ '14.0.4' ],
+94 silly audit   '@next/swc-win32-arm64-msvc': [ '14.0.4' ],
+94 silly audit   '@next/swc-win32-ia32-msvc': [ '14.0.4' ],
+94 silly audit   '@next/swc-win32-x64-msvc': [ '14.0.4' ],
+94 silly audit   '@noble/curves': [ '1.2.0' ],
+94 silly audit   '@noble/hashes': [ '1.3.2' ],
+94 silly audit   '@swc/helpers': [ '0.5.2' ],
+94 silly audit   '@tanstack/query-core': [ '5.95.2' ],
+94 silly audit   '@tanstack/react-query': [ '5.95.2' ],
+94 silly audit   '@types/node': [ '22.7.5' ],
+94 silly audit   'aes-js': [ '4.0.0-beta.5' ],
+94 silly audit   asynckit: [ '0.4.0' ],
+94 silly audit   axios: [ '1.13.6' ],
+94 silly audit   'baseline-browser-mapping': [ '2.10.10' ],
+94 silly audit   browserslist: [ '4.28.1' ],
+94 silly audit   busboy: [ '1.6.0' ],
+94 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+94 silly audit   'caniuse-lite': [ '1.0.30001781' ],
+94 silly audit   'client-only': [ '0.0.1' ],
+94 silly audit   clsx: [ '2.1.1' ],
+94 silly audit   'combined-stream': [ '1.0.8' ],
+94 silly audit   'date-fns': [ '2.30.0' ],
+94 silly audit   'delayed-stream': [ '1.0.0' ],
+94 silly audit   'dunder-proto': [ '1.0.1' ],
+94 silly audit   'electron-to-chromium': [ '1.5.325' ],
+94 silly audit   'es-define-property': [ '1.0.1' ],
+94 silly audit   'es-errors': [ '1.3.0' ],
+94 silly audit   'es-object-atoms': [ '1.1.1' ],
+94 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+94 silly audit   escalade: [ '3.2.0' ],
+94 silly audit   ethers: [ '6.16.0' ],
+94 silly audit   'follow-redirects': [ '1.15.11' ],
+94 silly audit   'form-data': [ '4.0.5' ],
+94 silly audit   'fraction.js': [ '5.3.4' ],
+94 silly audit   'function-bind': [ '1.1.2' ],
+94 silly audit   'get-intrinsic': [ '1.3.0' ],
+94 silly audit   'get-proto': [ '1.0.1' ],
+94 silly audit   'glob-to-regexp': [ '0.4.1' ],
+94 silly audit   gopd: [ '1.2.0' ],
+94 silly audit   'graceful-fs': [ '4.2.11' ],
+94 silly audit   'has-symbols': [ '1.1.0' ],
+94 silly audit   'has-tostringtag': [ '1.0.2' ],
+94 silly audit   hasown: [ '2.0.2' ],
+94 silly audit   'js-tokens': [ '4.0.0' ],
+94 silly audit   'loose-envify': [ '1.4.0' ],
+94 silly audit   'lucide-react': [ '0.294.0' ],
+94 silly audit   'math-intrinsics': [ '1.1.0' ],
+94 silly audit   'mime-db': [ '1.52.0' ],
+94 silly audit   'mime-types': [ '2.1.35' ],
+94 silly audit   nanoid: [ '3.3.11' ],
+94 silly audit   next: [ '14.0.4' ],
+94 silly audit   postcss: [ '8.4.31', '8.5.8' ],
+94 silly audit   'node-releases': [ '2.0.36' ],
+94 silly audit   picocolors: [ '1.1.1' ],
+94 silly audit   'postcss-value-parser': [ '4.2.0' ],
+94 silly audit   'proxy-from-env': [ '1.1.0' ],
+94 silly audit   react: [ '18.3.1' ],
+94 silly audit   'react-dom': [ '18.3.1' ],
+94 silly audit   scheduler: [ '0.23.2' ],
+94 silly audit   'source-map-js': [ '1.2.1' ],
+94 silly audit   streamsearch: [ '1.1.0' ],
+94 silly audit   'styled-jsx': [ '5.1.1' ],
+94 silly audit   tslib: [ '2.7.0' ],
+94 silly audit   'undici-types': [ '6.19.8' ],
+94 silly audit   'update-browserslist-db': [ '1.2.3' ],
+94 silly audit   watchpack: [ '2.4.0' ],
+94 silly audit   ws: [ '8.17.1' ],
+94 silly audit   autoprefixer: [ '10.4.27' ],
+94 silly audit   tailwindcss: [ '4.2.2' ]
+94 silly audit }
+95 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-win32-ia32-msvc
+96 silly reify mark deleted [
+96 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-win32-ia32-msvc'
+96 silly reify ]
+97 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-win32-arm64-msvc
+98 silly reify mark deleted [
+98 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-win32-arm64-msvc'
+98 silly reify ]
+99 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-linux-x64-musl
+100 silly reify mark deleted [
+100 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-linux-x64-musl'
+100 silly reify ]
+101 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-linux-x64-gnu
+102 silly reify mark deleted [
+102 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-linux-x64-gnu'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-linux-arm64-musl
+104 silly reify mark deleted [
+104 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-linux-arm64-musl'
+104 silly reify ]
+105 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-linux-arm64-gnu
+106 silly reify mark deleted [
+106 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-linux-arm64-gnu'
+106 silly reify ]
+107 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-darwin-x64
+108 silly reify mark deleted [
+108 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-darwin-x64'
+108 silly reify ]
+109 verbose reify failed optional dependency C:\Users\getan\Documents\voting\frontend\node_modules\@next\swc-darwin-arm64
+110 silly reify mark deleted [
+110 silly reify   'C:\\Users\\getan\\Documents\\voting\\frontend\\node_modules\\@next\\swc-darwin-arm64'
+110 silly reify ]
+111 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz 0ms (cache hit)
+112 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz. Extracting by manifest.
+113 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 314ms
+114 silly audit report {
+114 silly audit report   next: [
+114 silly audit report     {
+114 silly audit report       id: 1099638,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+114 silly audit report       title: 'Next.js Cache Poisoning',
+114 silly audit report       severity: 'high',
+114 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1100421,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+114 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1101438,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+114 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1105461,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+114 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+114 silly audit report       severity: 'low',
+114 silly audit report       vulnerable_versions: '>=13.0 <14.2.30',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1111391,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-mwv6-3258-q52c',
+114 silly audit report       title: 'Next Vulnerable to Denial of Service with Server Components',
+114 silly audit report       severity: 'high',
+114 silly audit report       vulnerable_versions: '>=13.3.0 <14.2.34',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1107226,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-g5qg-72qw-gw5v',
+114 silly audit report       title: 'Next.js Affected by Cache Key Confusion for Image Optimization API Routes',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1107420,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+114 silly audit report       title: 'Next.js authorization bypass vulnerability',
+114 silly audit report       severity: 'high',
+114 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1107512,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-4342-x723-ch2f',
+114 silly audit report       title: 'Next.js Improper Middleware Redirect Handling Leads to SSRF',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.32',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1107513,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-xv57-4mr9-wg8v',
+114 silly audit report       title: 'Next.js Content Injection Vulnerability for Image Optimization',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1112182,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-5j59-xgg2-r9c4',
+114 silly audit report       title: 'Next has a Denial of Service with Server Components - Incomplete Fix Follow-Up',
+114 silly audit report       severity: 'high',
+114 silly audit report       vulnerable_versions: '>=13.3.1-canary.0 <14.2.35',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1108291,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+114 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+114 silly audit report       severity: 'low',
+114 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.24',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1112593,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+114 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1112653,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-h25m-26qc-wcjf',
+114 silly audit report       title: 'Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components',
+114 silly audit report       severity: 'high',
+114 silly audit report       vulnerable_versions: '>=13.0.0 <15.0.8',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1113689,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-f82v-jwr5-mffw',
+114 silly audit report       title: 'Authorization Bypass in Next.js Middleware',
+114 silly audit report       severity: 'critical',
+114 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.25',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1114897,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-ggv3-7p47-pfv8',
+114 silly audit report       title: 'Next.js: HTTP request smuggling in rewrites',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=9.5.0 <15.5.13',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1114940,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-3x4c-7xq6-9pq8',
+114 silly audit report       title: 'Next.js: Unbounded next/image disk cache growth can exhaust storage',
+114 silly audit report       severity: 'moderate',
+114 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.14',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     },
+114 silly audit report     {
+114 silly audit report       id: 1097295,
+114 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+114 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+114 silly audit report       severity: 'high',
+114 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+114 silly audit report       cwe: [Array],
+114 silly audit report       cvss: [Object]
+114 silly audit report     }
+114 silly audit report   ]
+114 silly audit report }
+115 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz 627ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/next 455ms (cache revalidated)
+118 silly packumentCache corgi:https://registry.npmjs.org/next set size:24442910 disposed:false
+119 silly ADD
+120 silly ADD
+121 silly ADD
+122 silly ADD
+123 silly ADD
+124 silly ADD
+125 silly ADD
+126 silly ADD
+127 silly REMOVE node_modules/util-deprecate
+128 silly REMOVE node_modules/ts-interface-checker
+129 silly REMOVE node_modules/to-regex-range
+130 silly REMOVE node_modules/tinyglobby
+131 silly REMOVE node_modules/tinyglobby/node_modules/picomatch
+132 silly REMOVE node_modules/tinyglobby/node_modules/fdir
+133 silly REMOVE node_modules/thenify-all
+134 silly REMOVE node_modules/thenify
+135 silly CHANGE node_modules/tailwindcss
+136 silly REMOVE node_modules/supports-preserve-symlinks-flag
+137 silly REMOVE node_modules/sucrase
+138 silly REMOVE node_modules/run-parallel
+139 silly REMOVE node_modules/reusify
+140 silly REMOVE node_modules/resolve
+141 silly REMOVE node_modules/readdirp
+142 silly REMOVE node_modules/read-cache
+143 silly REMOVE node_modules/queue-microtask
+144 silly REMOVE node_modules/postcss-selector-parser
+145 silly REMOVE node_modules/postcss-nested
+146 silly REMOVE node_modules/postcss-load-config
+147 silly REMOVE node_modules/postcss-js
+148 silly REMOVE node_modules/postcss-import
+149 silly REMOVE node_modules/pirates
+150 silly REMOVE node_modules/pify
+151 silly REMOVE node_modules/picomatch
+152 silly REMOVE node_modules/path-parse
+153 silly REMOVE node_modules/object-hash
+154 silly REMOVE node_modules/object-assign
+155 silly REMOVE node_modules/normalize-path
+156 silly REMOVE node_modules/mz
+157 silly REMOVE node_modules/micromatch
+158 silly REMOVE node_modules/merge2
+159 silly REMOVE node_modules/lines-and-columns
+160 silly REMOVE node_modules/lilconfig
+161 silly REMOVE node_modules/jiti
+162 silly REMOVE node_modules/is-number
+163 silly REMOVE node_modules/is-glob
+164 silly REMOVE node_modules/is-extglob
+165 silly REMOVE node_modules/is-core-module
+166 silly REMOVE node_modules/is-binary-path
+167 silly REMOVE node_modules/glob-parent
+168 silly REMOVE node_modules/fill-range
+169 silly REMOVE node_modules/fastq
+170 silly REMOVE node_modules/fast-glob
+171 silly REMOVE node_modules/fast-glob/node_modules/glob-parent
+172 silly REMOVE node_modules/dlv
+173 silly REMOVE node_modules/didyoumean
+174 silly REMOVE node_modules/cssesc
+175 silly REMOVE node_modules/commander
+176 silly REMOVE node_modules/chokidar
+177 silly REMOVE node_modules/chokidar/node_modules/glob-parent
+178 silly REMOVE node_modules/camelcase-css
+179 silly REMOVE node_modules/braces
+180 silly REMOVE node_modules/binary-extensions
+181 silly REMOVE node_modules/arg
+182 silly REMOVE node_modules/anymatch
+183 silly REMOVE node_modules/any-promise
+184 silly REMOVE node_modules/@nodelib/fs.walk
+185 silly REMOVE node_modules/@nodelib/fs.stat
+186 silly REMOVE node_modules/@nodelib/fs.scandir
+187 silly REMOVE node_modules/@jridgewell/trace-mapping
+188 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+189 silly REMOVE node_modules/@jridgewell/resolve-uri
+190 silly REMOVE node_modules/@jridgewell/gen-mapping
+191 silly REMOVE node_modules/@alloc/quick-lru
+192 verbose cwd C:\Users\getan\Documents\voting\frontend
+193 verbose os Windows_NT 10.0.22631
+194 verbose node v22.14.0
+195 verbose npm  v10.9.2
+196 verbose exit 0
+197 info ok
